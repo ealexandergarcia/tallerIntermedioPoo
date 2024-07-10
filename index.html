@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Battle</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+    <h1>Star Wars: La Batalla</h1>
+    <div class="container">
+        <div class="character" id="yoda">
+            <h2>Yoda</h2>
+            <button id="yoda-presentarse" class="btn btn-blue">Presentarse</button>
+            <button id="yoda-usar-fuerza" class="btn btn-blue">Usar Fuerza</button>
+            <button id="yoda-entrenar" class="btn btn-blue">Entrenar</button>
+            <button id="yoda-ensenar" class="btn btn-blue">Enseñar</button>
+            <div id="yoda-messages"></div>
+        </div>
+        <div class="character" id="darth-vader">
+            <h2>Darth Vader</h2>
+            <button id="darth-vader-presentarse" class="btn btn-red">Presentarse</button>
+            <button id="darth-vader-usar-fuerza" class="btn btn-red">Usar Fuerza</button>
+            <button id="darth-vader-corromper" class="btn btn-red">Corromper</button>
+            <div id="darth-vader-messages"></div>
+        </div>
+    </div>
+    <button id="batalla" class="btn btn-green">Iniciar Batalla</button>
+    <div id="battle-messages"></div>
+</body>
+</html>
